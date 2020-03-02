@@ -1,3 +1,3 @@
-# myFirstReactNativeApp
+# simpleWeatherApp
 
-Just prints my name on a blank screen. Used Expo CLI &amp; Client App to quick start project
+Weather App allows the user to enter a location and view the weather for said location based on API data. Currently in progress
