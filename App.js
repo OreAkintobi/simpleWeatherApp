@@ -40,7 +40,7 @@ export default class App extends React.Component {
       },
       async () => {
         try {
-          const locationId = await fetchLocationId;
+          const locationId = await fetchLocationId(city);
           const { location, weather, temperature } = await fetchWeather(
             locationId
           );
